@@ -12,7 +12,7 @@ setup(name='bert-extractive-summarizer',
       download_url='https://github.com/dmmiller612/bert-extractive-summarizer/archive/0.10.1.tar.gz',
       author='Derek Miller',
       author_email='dmmiller612@gmail.com',
-      install_requires=['transformers', 'scikit-learn', 'spacy==3.7.5'],
+      install_requires=['transformers', 'scikit-learn==1.3.2', 'spacy==3.7.5'],
       license='MIT',
       packages=find_packages(),
       zip_safe=False)
